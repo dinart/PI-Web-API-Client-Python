@@ -50,6 +50,7 @@ All classes and methods are described on the [DOCUMENTATION](DOCUMENTATION.md).
 
  - Is is highly recommended to turn debug mode on in case you are using PI Web API 2017 R2+ in order to receive more detailed exception errors. This can be achieved by creating or editing the DebugMode attribute's value to TRUE from the System Configuration element.
  - The X-Requested-With header is added to work with CSRF defences.
+ - Stream Updates support added by Dinart (still under development)
  
 ## Examples
 
