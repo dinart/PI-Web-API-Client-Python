@@ -594,14 +594,12 @@ class StreamApi(object):
 				body =body_params,
 				post_params =form_params,
 				files =local_var_files,
-				response_type =str,
+				response_type = object,
 				callback =params.get('callback'),
 				_return_http_data_only =params.get('_return_http_data_only'),
 				_preload_content =params.get('_preload_content', True),
 				_request_timeout=params.get('_request_timeout'),
 				collection_formats =collection_formats)
-
-#NOVO
 
 	def retrieve_update(self, marker, desired_units=None, selected_fields=None, web_id_type=None, **kwargs):
 		kwargs['_return_http_data_only'] = True
@@ -673,7 +671,7 @@ class StreamApi(object):
 				body =body_params,
 				post_params =form_params,
 				files =local_var_files,
-				response_type =str,
+				response_type = object,
 				callback =params.get('callback'),
 				_return_http_data_only =params.get('_return_http_data_only'),
 				_preload_content =params.get('_preload_content', True),
